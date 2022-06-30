@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Kameron:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Kameron;
+    color: #2E377F;
+}
+body{
+    background-color: #F3F3F3;
+}
+.cabecalho{
+    display: grid;
+    grid-template-columns: 15vw 15vw 15vw 15vw 15vw 15vw; 
+    justify-content: center;
+    align-content: start;
+    grid-gap: 1vw;
+    background-color: #d9d9d9;
+}
+
+#menu img{
+    width: 12vw;
+}
+
+#logo img{
+    width: 10vw;
+    margin-left: 68vw;
+}
+h1{
+    text-align: center;
+}
+.linha{
+    background-color: #F3F3F3;
+    display:flex;
+    text-align: center;
+    margin-bottom: 5vh;
+}
+.linha div {
+    background-color: #d9d9d9;
+    width: 20vw;
+    margin-left: 10vw;
+    margin-top: 5vh;
+
+}
+.linha img{
+    width: 15vw;
+    height: 30vh;
+    margin-top: 2vh;
+}
+.linha h3{
+    margin-top: 1.5vh;
+}
+.linha h2{
+    margin-bottom: 2vh;
+}
