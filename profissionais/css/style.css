@@ -19,11 +19,12 @@ body{
 }
 
 #menu img{
-    width: 12vw;
+    margin-top:25px;
+    width: 5vw;
 }
 
 #logo img{
-    width: 10vw;
+    width: 8vw;
     margin-left: 68vw;
 }
 h1{
